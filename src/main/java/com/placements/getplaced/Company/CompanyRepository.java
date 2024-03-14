@@ -1,2 +1,6 @@
-package com.placements.getplaced.Company;public interface CompanyRepository {
+package com.placements.getplaced.Company;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CompanyRepository extends JpaRepository<Company, Long> {
 }
